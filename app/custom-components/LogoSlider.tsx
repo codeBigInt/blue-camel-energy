@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
-import { clearInterval } from 'timers';
 
 type ImageSrc = string;
 
@@ -16,9 +15,7 @@ interface StyleProps extends React.CSSProperties {
   '--animation-duration': string;
 }
 
-const LogoSlider = ({ logos, direction, delay }: LogoSliderProps) => {
-  const [isScrolling, setIsScrolling] = useState(true)
-  const [scrollPercent, setScrollPercent] = useState(0)
+const LogoSlider = ({ logos }: LogoSliderProps) => {
   const [contentWidth, setContentWidth] = useState<number>(0);
 
   // Calculate animation duration based on content length

@@ -1,5 +1,4 @@
 import React from 'react'
-import Wrapper from './Wrapper'
 import bg from "../../public/images/contact.png"
 import ContactForm from './ContactForm'
 
