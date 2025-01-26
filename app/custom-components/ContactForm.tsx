@@ -34,10 +34,13 @@ const ContactForm = () => {
     })
 
     type FormData = z.infer<typeof formSchema>
-
+    const handleSubmit = (data: FormData) => {
+        console.log(data);
+        
+    }
     return (
         <Form {...form}>
-            <form className='bg-white md:p-8 p-4 py-8 rounded-lg gap-6 w-[80%] flex flex-col'>
+            <form onSubmit={form.handleSubmit(handleSubmit)} className='bg-white md:p-8 p-4 py-8 rounded-lg gap-6 w-[80%] flex flex-col'>
                 <h3 className='text-2xl'>Get a free Personalized Quote</h3>
                 <div className="grid md:grid-cols-2 gap-4 grid-cols-1">
                     <div className="w-full">

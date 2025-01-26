@@ -1,6 +1,5 @@
 import React from 'react'
 import Wrapper from './Wrapper'
-import { reviewers } from '@/lib/utils/reviewArray'
 import ReviewCaruosel from './ReviewCaruosel'
 
 
