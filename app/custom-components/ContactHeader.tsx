@@ -6,7 +6,7 @@ import { socials } from '@/lib/utils/contactArray'
 const ContactHeader = () => {
    
     return (
-        <Wrapper className='bg-scheme-gray flex justify-between'>
+        <Wrapper className='bg-scheme-gray relative flex justify-between'>
             <div className='flex gap-2 items-center'>
                 <Mail size={18} />
                 <span>info@bluecamel.us</span>

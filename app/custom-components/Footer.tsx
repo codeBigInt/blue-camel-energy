@@ -10,14 +10,14 @@ const Footer = () => {
       <div className='grid grid-cols-3 grid-rows-4 gap-4'>
         {
           footerNavigation.map((navItem) => (
-            <Link key={navItem.label} href={navItem.href} className="text-[20px] capitalize">{navItem.label}</Link>
+            <Link key={navItem.label} href={navItem.href} className="md:text-[20px] text-[16px] capitalize">{navItem.label}</Link>
           ))
         }
       </div>
       <div className='flex justify-between border-t border-gray-500 p-6'>
-        <h3>Copyright © Blue Camel Enery 2025 </h3>
-        <h3>Terms of use</h3>
-        <h3>Privacy Policy</h3>
+        <h3 className='md:text-[16px] text-xs'>Copyright © Blue Camel Enery 2025 </h3>
+        <h3 className='md:flex hidden'>Terms of use</h3>
+        <h3 className='md:flex hidden'>Privacy Policy</h3>
         <div className='flex items-center gap-4'>
           {
             socials.map((link) => (
