@@ -28,7 +28,6 @@ const ContactForm = () => {
             lName: "",
             email: "",
             state: "",
-            phone: 2340000000000
         },
         resolver: zodResolver(formSchema)
     })

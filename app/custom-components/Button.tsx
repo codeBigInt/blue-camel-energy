@@ -11,7 +11,7 @@ interface ButtonProps {
 
 const Button = ({ variant, className, children, icon, alignIcon }: ButtonProps) => {
 
-    const clsx = cn("px-6 py-3 md:w-max", {
+    const clsx = cn("px-6 py-3 md:w-max hover:opacity-70", {
         "bg-transparent border-[2px]": variant === "bordered",
         "bg-transparent": variant === "borderless"
     }, className)

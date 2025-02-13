@@ -6,7 +6,7 @@ import { logos } from '@/lib/utils/logoArray'
 const Client = () => {
     return (
         <>
-            <div className='flex justify-center items-center lg:px-20 px-8 py-10 text-xl bg-scheme text-white'>
+            <div className='flex justify-center items-center lg:px-20 px-8 py-10 md:text-xl bg-scheme text-white'>
                 Prestigious OEM and International partners
             </div>
             <Wrapper>
