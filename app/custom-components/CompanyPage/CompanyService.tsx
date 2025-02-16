@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const CompanyService = () => {
     return (
-        <Wrapper className='bg-yellow-500 lg:flex-row flex-col-reverse max-sm:gap-20 py-20 justify-between items-center text-scheme w-screen flex pt-10 lg:min-h-[650px] min-h-full overflow-hidden'>
+        <Wrapper className='bg-yellow-500 md:flex-row flex-col-reverse max-sm:gap-20 py-20 justify-between items-center text-scheme w-screen flex pt-10 lg:min-h-[650px] min-h-full overflow-hidden'>
             <div className='md:w-[40%] w-full flex flex-col md:gap-8 gap-4'>
                 <p className='uppercase leading-3 text-[18px] font-semibold'>Our Approach</p>
                 <p className='text-black'>
