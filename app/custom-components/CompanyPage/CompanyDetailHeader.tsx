@@ -14,13 +14,6 @@ export interface Dot {
 const CompanyDetailHeader = () => {
     const containerRef = useRef<HTMLDivElement | null>(null)
     const [dots, setDots] = useState<Dot[]>([])
-    const bgProps = {
-        backgroundImage: `url(${bg.src})`,
-        backgroundSize: "cover",
-        backgroundPosition: "bottom",
-        backgroundRepeat: "no-repeat"
-    }
-
     useEffect(() => {
         const calculateDots = () => {
             if (!containerRef.current) return;

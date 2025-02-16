@@ -3,7 +3,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import Wrapper from '../Wrapper'
 import { Dot } from './CompanyDetailHeader'
 import bg from "../../../public/images/workers.webp"
-import Image from 'next/image'
 import Button from '../Button'
 
 const CareerComp = () => {

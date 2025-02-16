@@ -1,9 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from 'react'
 import { Dot } from './CompanyDetailHeader'
-import Button from '../Button'
 import Wrapper from '../Wrapper'
-import Image from 'next/image'
 
 const AboutCompany = () => {
     const aboutRef = useRef<HTMLDivElement | null>(null)
